@@ -7,3 +7,4 @@ Fundamentals of Programming In C
     :maxdepth: 2
 
     doc/1_milestone.rst
+    doc/2_milestone.rst
