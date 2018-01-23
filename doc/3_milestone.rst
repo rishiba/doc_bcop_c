@@ -25,13 +25,11 @@ Write a function ``find_sum_till_n()`` which takes input an integer and finds su
 '''''''
 Samples
 '''''''
-========  =====================================  ==========  ==========
-  Number  Explanation                            Input       Output
-========  =====================================  ==========  ==========
-       1  Check for a general case.              HelloWorld  HeLlOwOrLd
-       2  Check for all "lowercase" characters.  helloworld  HeLlOwOrLd
-       3  Check for all "UPPERCASE" characters.  HELLOWORLD  HeLlOwOrLd
-========  =====================================  ==========  ==========
+========  =========================  =======  ========
+  Number  Explanation                  Input    Output
+========  =========================  =======  ========
+       1  Check for a general case.        4        10
+========  =========================  =======  ========
 
 
 ''''''''
@@ -108,13 +106,11 @@ Description
 '''''''
 Samples
 '''''''
-========  =====================================  ==========  ==========
-  Number  Explanation                            Input       Output
-========  =====================================  ==========  ==========
-       1  Check for a general case.              HelloWorld  HeLlOwOrLd
-       2  Check for all "lowercase" characters.  helloworld  HeLlOwOrLd
-       3  Check for all "UPPERCASE" characters.  HELLOWORLD  HeLlOwOrLd
-========  =====================================  ==========  ==========
+========  =========================  =========  ========
+  Number  Explanation                Input        Output
+========  =========================  =========  ========
+       1  Check for a general case.  [2, 2, 3]        16
+========  =========================  =========  ========
 
 
 ''''''''
@@ -1196,7 +1192,7 @@ Function Arguments
 ========  ======  ======  ==================================================================  =========
   Number  Type    Name    Explanation                                                         Remarks
 ========  ======  ======  ==================================================================  =========
-       1  int     int     The highest number till which we have to find the fibonacci terms.
+       1  int     int     The highest number till which we have to find the Fibonacci terms.
 ========  ======  ======  ==================================================================  =========
 
 
@@ -1217,7 +1213,7 @@ Function Placeholder
 ::
 
 	/*
-	 * int int - The highest number till which we have to find the fibonacci terms.
+	 * int int - The highest number till which we have to find the Fibonacci terms.
 	 */
 	
 	int find_sum_of_even_numbers_fibonacci(int n) {
@@ -1415,12 +1411,11 @@ Write a function ``gen_fibonacci()`` which generates the Nth Fibonacci number.
 '''''''
 Samples
 '''''''
-========  =============  =======  ============
-  Number  Explanation      Input  Output
-========  =============  =======  ============
-       1                       5  [1, 1, 2, 3]
-       2                       5  [1, 1, 2, 3]
-========  =============  =======  ============
+========  =============  =======  ========
+  Number  Explanation      Input    Output
+========  =============  =======  ========
+       1                       5         3
+========  =============  =======  ========
 
 
 ''''''''
@@ -1432,7 +1427,7 @@ Function
 Function Signature
 ^^^^^^^^^^^^^^^^^^
 
-``int gen_fibboniaci(int n)``
+``int gen_fibonacci(int n)``
 
 
 ^^^^^^^^^^^^^^^^^^
@@ -1465,7 +1460,7 @@ Function Placeholder
 	 * int n - The Fibonacci number to be generated.
 	 */
 	
-	int gen_fibboniaci(int n) {
+	int gen_fibonacci(int n) {
 	
 	    // Write the function body here.
 	
@@ -1474,7 +1469,7 @@ Function Placeholder
 	int main() {
 	
 	    // Call the function here with right parameters.
-	    // int gen_fibboniaci(int n)
+	    // int gen_fibonacci(int n)
 	}
 
 .. raw:: latex
